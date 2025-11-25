@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+<h1>University Registration Form</h1>
+<p>Please fill out the form below to register.</p>
+<hr />
+<form action="" method="get" accept-charset="utf-8">
+    <h2>Personal Details</h2>
+    <label for="fName">First Name:</label>
+    <input type="text" name="fName" id="fName" placeholder="e.g., Arjun" />
+    <br><br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="lastName" id="lastName" placeholder="e.g., Tiwari" />
+    <br><br>
+    <label for="dob">Date Of Birth:</label>
+    <input type="date" name="dob" id="dob" />
+    <br><br>
+    <label for="gender">Gender:</label>
+    <br><br>
+    <input type="radio" name="gender" id="male" />
+    <label for="male">Male</label>
+    <br><br>
+    <input type="radio" name="gender" id="female" />
+    <label for="female">Female</label>
+    <br><br>
+    <input type="radio" name="gender" id="other" />
+    <label for="other">Other</label>
+    <br><br>
+    <label for="file">Upload Your Photo:</label>
+    <input type="file" name="file"/>
+    <hr />
+    <h2>Contact Information</h2>
+    <label for="email">Email Address:</label>
+    <input type="email" name="email" id="email" placeholder="you@example.com" />
+    <br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" name="phone" id="phone" placeholder="9845781243" />
+    <br><br>
+    <label for="address">Mailing Address:</label><br>
+    <textarea name="address" id="address" rows="5" cols="30" placeholder="street Address, city, state, zip code"></textarea>
+    <hr />
+    <h2>Academic Information</h2>
+    <label for="course">Select Your Course:</label><br>
+    <select name="course" id="course">
+        <option value="Choose a Course">Choose a Course</option>
+        <option value="CSE">CSE</option>
+        <option value="ME">ME</option>
+        <option value="ECE">ECE</option>
+    </select>
+    <br><br>
+    <label for="">Extra Curricular Activities:</label><br>
+    <input type="checkbox" name="" id="sports" />
+    <label for="sports">Sports</label><br>
+    <input type="checkbox" name="" id="music arts" />
+    <label for="music arts">Music & Arts</label><br>
+    <input type="checkbox" name="" id="technology" />
+    <label for="technology">Technology Clubs</label><br>
+    <input type="checkbox" name="" id="volunteering" />
+    <label for="volunteering">Volunteering</label>
+    <hr />
+    <h2>Create Your Account</h2>
+    <label for="password">Create a Password:</label>
+    <input type="password" name="password" id="password" />
+    <br><br>
+    <label for="">Security Questions: </label>
+    <select name="" id="">
+        <option value="first pet name">What was your first pet name</option>
+        <option value="first school name">What was your first school name</option>
+        <option value="mother name">What is your mother name</option>
+    </select>
+    <br><br>
+    <label for="security">Security Answer:</label>
+    <input type="text" name="security" id="security" />
+    <br><br>
+    <input type="checkbox" name="tc" id="tc" />
+    <label for="tc">I agree to the Terms and Conditions.</label>
+    <hr />
+    <button type="submit">Register</button>
+    <button type="reset">Clear Form</button> 
+</form>
+</body>
+</html>
