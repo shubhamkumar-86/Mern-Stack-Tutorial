@@ -1,0 +1,15 @@
+/* h1{
+    background-color: red !important;
+} */
+
+h1{
+    background-color: red;
+}
+
+#idd{
+    background-color: green;
+}
+
+.firstCls{
+    background-color: blue;
+}
