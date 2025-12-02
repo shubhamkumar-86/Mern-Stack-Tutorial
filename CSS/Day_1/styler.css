@@ -1,0 +1,41 @@
+/* *{
+    margin: 0px;
+    padding: opx;
+} */
+
+
+h1{
+    background-color: pink;
+    height: 300px;
+    width: 400px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: content-box;
+
+    /* padding: 20px;
+    margin: 20px; */
+    /* display: inline-block; */
+}
+/* we can apply height and width in block level element */
+h2{
+    background-color: blue;
+    height: 200px;
+    width: 300px;
+    border: 10px solid green;
+    padding: 20px;
+    box-sizing: border-box;
+    /* display: inline; */
+    /* display: inline-block; */
+}
+/* inline element can't allow to apply height and width property */
+span{
+    background-color: brown;
+    /* height: 200px;
+    width: 200px; */
+    margin: 10px;
+    padding: 10px;
+    /* display: block; */
+    /* padding-top: 20px; */
+    /* margin-top: 20px; */
+}
+
