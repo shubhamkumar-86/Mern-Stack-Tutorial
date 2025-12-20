@@ -27,6 +27,7 @@
 
 // primitive data type
 // number, string, boolean, undefined, null, bigint, symbol
+// primitive data type are immutable, we can not change it.
 
 
 // number
@@ -46,6 +47,7 @@
 
 // let user;
 // console.log(user);
+// console.log(typeof user)
 
 // bigint
 // let num = 245789545789556n;
@@ -54,16 +56,19 @@
 // null
 // let weather =null;
 // console.log(weather);
+// console.log(typeof weather);
 
 // symbol - unique value generate ho jati hai isse.
 // const id1 = Symbol("id");
 // console.log(id1);
 
 // non primitive data type
+// non primitive data type are mutable, we can change it
 // array, object, function
 
 // let arr = ["shubham", 25, 24, 66, 45, true];
 // console.log(arr);
+// console.log(typeof arr);
 
 // let obj={
 //     name:"shubham",
@@ -80,3 +85,4 @@
 
 // console.log(s);
 // s(); -- function calling
+
