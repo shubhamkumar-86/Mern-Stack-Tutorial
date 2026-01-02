@@ -102,3 +102,42 @@
 // console.log(va);
 
 // object ke andar object create karna
+
+// const user = {
+//     name: "shubham",
+//     age: 24,
+//     emailId: "shubham@gmail.com",
+//     address: {
+//         city: "Noida",
+//         state: "Uttar Pradesh"
+//     }
+// }
+
+
+// Shallow Copy 
+
+// const user2 = {...user};  // independent copy using spread operator
+
+// user2.name = "Shivam";
+// user2.address.city = "Kurtha"
+// console.log(user2);
+
+// Deep Copy
+
+// const user2 = structuredClone(user);
+// user2.address.city = "Kurtha"
+// console.log(user2);
+// keys can be string and symbol both
+
+// const sym = Symbol("id");
+
+// const user = {
+//     name: "shubham",
+//     age: 24,
+//     0: "kurtha",
+//     1: 100,
+//     [sym]: "Hello ji"
+// }
+
+// console.log(user[sym]);
+
