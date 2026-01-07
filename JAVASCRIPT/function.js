@@ -39,3 +39,54 @@
 
 // arrow function
 
+// ()=>{
+
+// }
+
+// example ---
+// const addNumber = (num1,num2)=>{
+//     return num1+num2;
+// }
+
+// console.log(addNumber(5,8));
+
+// if we have single parameter, no need of this ()
+// const squareNumber=(num) => num*num;
+
+// console.log(squareNumber(5));
+
+
+// jab bhi object ko handle karna hoga to hum paranthesise () lgate HTMLDetailsElement.
+// const greeting =()=> ({name:"Shubham", age:24});
+
+// console.log(greeting());
+
+//IIFE
+
+// (function greeting(){
+    // console.log("hello shubham");
+// })();
+
+// using arrow fncn 
+// (()=>{
+//     console.log("Hello everyone");
+// })()
+
+// Callback function
+
+function greet(){
+    console.log("hello kaise ho");
+}
+
+function dance(){
+    console.log("i am dancing");
+}
+
+function meet(Callback){
+    console.log("milne ja rha hoon kisi se");
+    Callback();
+    console.log("meeting khatam");
+}
+
+meet(greet);
+meet(dance);
